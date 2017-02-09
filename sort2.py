@@ -9,7 +9,6 @@ while i < len(array):#配列の順番を決める
 			array[j]=array[i]
 			array[i]=tmp
 		j=j+1
-		print(array)
 		pass
 	i=i+1
 	pass
