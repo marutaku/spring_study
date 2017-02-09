@@ -12,3 +12,4 @@ while i < len(array):#配列の順番を決める
 		pass
 	i=i+1
 	pass
+print(array)
