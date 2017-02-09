@@ -5,7 +5,6 @@ def change (count,array):
 
 array = [9,6,7,1,2]
 
-print(len(array))
 
 for i in range (len(array) - 2):
     
