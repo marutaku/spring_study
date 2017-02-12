@@ -1,6 +1,6 @@
 #fvnc.py
 def sumfvnc(fvnc):
-    return = fvnc[-1] + fvnc[-2]
+    return fvnc[-1] + fvnc[-2]
     
 
 number = int(input())
@@ -11,5 +11,3 @@ for i in range(number):
     else:
         fvnc.append(sumfvnc(fvnc))
 print(fvnc)
-
-
