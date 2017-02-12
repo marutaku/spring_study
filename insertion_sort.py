@@ -1,8 +1,8 @@
 array = [9,6,7,1,2]
-i = 0
-
-for i in range(1,len(array)):#配列の順番を決める
-    for j in range(i):
-        if array[i] < array[j]:
-            array[j],array[i] = array[i],array[j]
-        print(array)
+sort_array = []
+for i in range(len(array)): #配列の順番を決める
+    sort_array.append(array.pop(0))
+    for j in range(len(sort_array)):
+        if sort_array[- 1] < sort_array[j]:
+            sort_array[j], sort_array[i] = sort_array[i], sort_array[j]
+        print(sort_array)
